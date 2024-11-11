@@ -1,0 +1,109 @@
+/* AlumniForm.css */
+
+.alumni-form-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .alumni-form-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Sections */
+  .alumni-form-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .alumni-personal-details {
+    background-color: #e3f2fd;
+  }
+  
+  .alumni-academic-details {
+    background-color: #e8f5e9;
+  }
+  
+  .alumni-professional-details {
+    background-color: #fff3e0;
+  }
+  
+  .alumni-form-section h3 {
+    font-size: 1.2em;
+    color: #007bff;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  .alumni-form-section input,
+  .alumni-form-section textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: inherit;
+  }
+  
+  textarea {
+    height: 80px;
+    resize: none;
+  }
+  
+  /* Buttons */
+  .alumni-add-button,
+  .alumni-remove-button {
+    padding: 8px 10px;
+    color: #ffffff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .alumni-add-button:hover {
+    background-color: #218838;
+  }
+  
+  .alumni-remove-button {
+    background-color: #dc3545;
+  }
+  
+  .alumni-remove-button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Navigation Buttons */
+  .alumni-form-navigation {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .alumni-nav-button,
+  .alumni-submit-button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .alumni-nav-button:hover,
+  .alumni-submit-button:hover {
+    background-color: #0056b3;
+  }  

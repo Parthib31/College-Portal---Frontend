@@ -1,0 +1,77 @@
+/* facultyList.css */
+
+.faculty-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.faculty-card {
+  background-color: #f4f4f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.faculty-card:hover {
+  transform: scale(1.05);
+}
+
+.faculty-image {
+  width: 100px; /* Set to preferred size */
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+
+.faculty-card h2 {
+  font-size: 1.2em;
+  margin: 0;
+  color: #333;
+}
+
+.faculty-card p {
+  color: #555;
+  font-size: 0.9em;
+}
+
+.view-profile-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 15px;
+  color: #ffffff;
+  background-color: #007bff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.view-profile-button:hover {
+  background-color: #0056b3;
+}
+
+.apply-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #28a745; /* A green color to differentiate from the profile button */
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.apply-link:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
